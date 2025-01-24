@@ -1,17 +1,6 @@
-# Ignore operating system files
-.DS_Store
-Thumbs.db
-
-# Ignore IDE and editor files
-.vscode/
-.idea/
-*.iml
-*.suo
 
 # Ignore Python-specific files
 __pycache__/
-*.py[cod]
-*.egg-info/
 
 # Ignore virtual environment files
 env/
@@ -21,11 +10,3 @@ venv/
 # Ignore log files
 *.log
 
-# Ignore email-specific files (assuming you're using a email library)
-email_templates/
-email_logs/
-
-# Ignore other miscellaneous files
-node_modules/
-package-lock.json
-requirements.txt

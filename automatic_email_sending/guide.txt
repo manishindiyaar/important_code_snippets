@@ -1,0 +1,2 @@
+for removing prev. pushed envs
+git rm --cached automatic_email_sending/.env
