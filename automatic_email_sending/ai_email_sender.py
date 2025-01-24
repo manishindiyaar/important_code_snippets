@@ -6,6 +6,8 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Email, To, Content
 import json
 from groq import Groq
+load_dotenv()
+
 class EmailSender:
     def __init__(self):
         """
